@@ -15,3 +15,7 @@ echo $this->getLayout()
           ->setTemplate('Webtoolmaker_Ishopdesign::sologan.phtml')
           ->toHtml();
 ?>
+
+3, Add block to cms block
+
+{{block class="Magento\Modulename\Block\Blockname" template="Magento_Modulename::templatefilename.phtml"}} 
